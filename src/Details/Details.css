@@ -1,0 +1,12 @@
+.detail {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 1px;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border: 1px solid green;
+    padding: 1%;
+    height: 100%;
+}

@@ -1,0 +1,19 @@
+ul {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    width: 90%;
+    text-align: center;
+    grid-gap: 15px;
+}
+
+.container {
+    position: relative;
+}
+.container input {
+    position: absolute;
+    bottom: 0;
+    left: -110px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
