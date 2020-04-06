@@ -4,13 +4,12 @@ import './GetAssignment.css';
 import axios from 'axios';
 
 export default class GetAssignment extends React.Component {
-  constructor() {
-    super();
-    this.state = {
+
+    state = {
       assignments: [],
       isChecked: false
     }
-  }
+  
   componentDidMount() {
     axios.get(`https://beehiveapi.lionhearttrust.org.uk/v3.5/planner/test/assignments`)
       .then(res => {

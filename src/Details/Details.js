@@ -3,12 +3,12 @@ import axios from 'axios';
 import './Details.css';
 
 export default class DetailsComponent extends React.Component {
+        state = {
+            assignments: [],
+            assignmentsGet: [],
+            array: []
+        }
 
-    state = {
-        assignments: [],
-        assignmentsGet: [],
-        array: []
-    }
 
     componentDidMount() {
         axios.get(`https://beehiveapi.lionhearttrust.org.uk/v3.5/planner/users/d70cbe8d-11ac-e811-80e2-005056a23846/assignments/${this.props.match.params.id}`)
