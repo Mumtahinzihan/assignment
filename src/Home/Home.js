@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './Home.css';
 
 export default function Home(props) {
-    
+
     const [complete, setComplete] = useState(false);
     const [color, setColor] = useState(false);
 
@@ -27,8 +27,7 @@ export default function Home(props) {
                         handleClick()
                         handleColor()
                     }}
-                >Mark as
-                {complete ? 'Incomplete' : 'Complete'}
+                >Mark as {complete ? 'Incomplete' : 'Complete'}
                 </button>
             </label>
         </div >
