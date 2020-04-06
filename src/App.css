@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   background-color: rgb(200, 223, 200);
+  height: auto;
 }
 .heading {
   border: 3px solid rgb(33, 77, 3);

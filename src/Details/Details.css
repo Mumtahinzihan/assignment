@@ -1,12 +1,28 @@
 .detail {
     display: grid;
     grid-template-rows: auto;
-    grid-gap: 1px;
-    text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    border: 1px solid green;
+    grid-gap: 10px;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 7px solid rgb(0, 110, 0);
     padding: 1%;
-    height: 100%;
+    font-weight: 600;
+}
+.assignment, .group, .setby {
+    border: 3px solid rgb(149, 97, 0);
+    border-radius: 10px;
+}
+.detail h2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(149, 97, 0);
+    padding: 1%;
+    border-radius: 10px;
+}
+p {
+    background-color: rgb(236, 236, 236);
+    font-size: larger;
+}
+h1 {
+    background-color: rgba(129, 129, 129, 0.493);
 }
